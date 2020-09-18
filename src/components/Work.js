@@ -5,9 +5,9 @@ export default function Work() {
         <div class="section-block-bg">
   <div class="container">
     <div class="section-heading center-holder">
-      <h2>Why work with M2M One?</h2>
+      <h2>Why work with AIO Technica?</h2>
       <div class="section-heading-line"></div>
-      <p>M2M One cater exclusively to the Machine to Machine (M2M) and Internet of Things (IoT) market. </p>
+      <p>AIO Technica cater exclusively to the Machine to Machine (M2M) and Internet of Things (IoT) market. </p>
     </div>
     <div class="row">
       <div class="owl-carousel owl-theme mt-25" id="services-carousel-2">
@@ -38,7 +38,7 @@ Our goal is to make getting a product to market as easy as possible for you.</p>
         <div class="service-box-car-2">
           <i class="icon-exchange-2"></i>
           <h4>Your own network without the cost</h4>
-          <p>M2M One can provide customers with their own private IP network, without needing to purchase physical infrastructure or pay significant costs to a carrier for dedicated traffic.</p>
+          <p>AIO Technica can provide customers with their own private IP network, without needing to purchase physical infrastructure or pay significant costs to a carrier for dedicated traffic.</p>
         </div>
         <div class="service-box-car-2">
           <i class="icon-padlock"></i>

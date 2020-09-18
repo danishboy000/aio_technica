@@ -6,7 +6,7 @@ export default function Services() {
         {
             image:'/img/Home-SIM-Icon-V2.png',
             heading:'M2M SIM Cards',
-            p1:'Connect your device to the largest mobile network in Australia with M2M One.',
+            p1:'Connect your device to the largest mobile network in North America with AIO Technica.',
             p2:'We stock a variety of form factors: Standard, Micro, Nano, Industrial and Machine Solderable.'
         },
         {
@@ -19,7 +19,7 @@ export default function Services() {
             image:'/img/Home-Networking-Icon-v2.png',
             heading:'M2M Wireless IP Networking',
             p1:'Need something more than public internet access?',
-            p2:'Static IP, VPN & Managed IPWAN services are available through M2M One IPX. '
+            p2:'Static IP, VPN & Managed IPWAN services are available through AIO Technica IPX. '
         },
         {
             image:'/img/Home-Control-V3.png',
@@ -59,7 +59,7 @@ export default function Services() {
         <div class="container">
             <div class="section-heading center-holder">
             <span>Let your business to grow with us</span>
-            <h3>M2M One Services</h3>
+            <h3>AIO Technica Services</h3>
             <div class="section-heading-line"></div>
             </div>
             <div class="row mt-50">

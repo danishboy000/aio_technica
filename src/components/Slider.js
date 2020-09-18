@@ -11,12 +11,12 @@ export default function Slider() {
                 <div class="container">
                     <div class="slider-content left-holder">
                     <h2 class="animated fadeInDown">
-                        Australia's Leading Provider of SIM Cards and Data Plans for M2M and IoT Devices
+                        North America's Leading Provider of SIM Cards and Data Plans for M2M and IoT Devices
                     </h2>
                     <div class="row">
                         <div class="col-md-6 col-sm-12 col-12">
                         <p class="animated fadeInDown">
-                        M2M One cater exclusively to the Machine to Machine (M2M) and Internet of Things (IoT) market. Our goal is to help our customers and partners accelerate development and manage deployment of their connected devices.
+                        AiO Technica cater exclusively to the Machine to Machine (M2M) and Internet of Things (IoT) market. Our goal is to help our customers and partners accelerate development and manage deployment of their connected devices.
                         </p>
                         </div>
                     </div>

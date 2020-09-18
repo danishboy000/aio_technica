@@ -13,28 +13,26 @@ export default function Navbar() {
                 </div>
                 <div class="nav-menus-wrapper">
                 <ul class="nav-menu align-to-right">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">News and Events</a></li>
-                    <li><a href="#">M2M Services</a>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#">Services</a>
                     <ul class="nav-dropdown">
-                        <li><a href="about.html">M2M Sim Cards</a></li>
-                        <li><a href="about-2.html">M2M Data Plans</a></li>
-                        <li><a href="team.html">M2M One Control Centers</a></li>
-                        <li><a href="team-2.html">M2M Wireless IP Networking</a></li>
+                        <li><a href="/sim-cards">Sim Cards</a></li>
+                        <li><a href="/data-plans">Data Plans</a></li>
+                        <li><a href="/control-center">Control Centers</a></li>
+                        <li><a href="/wireless-ip-networking">Wireless IP Networking</a></li>
+                        <li><a href="/nb-iot">NB Iot Sim Cards and Plans</a></li>
+                        <li><a href="/global">Global Sim</a></li>
+                        <li><a href="/developers">Developers Kit</a></li>
+                        <li><a href="/managed-failover">Managed Failover</a></li>
                         
                     </ul>
                     </li>
-                    <li><a href="#">Pricing</a>
-                    <ul class="nav-dropdown">
-                        <li><a href="services.html">Brochure</a></li>
-                        <li><a href="services-2.html">Australian Price List</a></li>
-                    </ul>
-                    </li>
-                    <li><a href="#">Get Connected</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Partner Program</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="/get-connected">Get Connected</a></li>
+                    <li><a href="/faq">FAQ</a></li>
+                   
+                    <li><a href="/partner-program">Partner Program</a></li>
+                    <li><a href="/contact-us">Contact Us</a></li>
                     
                 </ul>
                 </div>

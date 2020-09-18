@@ -9,7 +9,7 @@ export default function TopBar() {
           <div class="col-md-9 col-12">
             <div class="top-bar-welcome">
               <ul>
-                <li>Welcome to Professional Consulting Agency</li>
+                <li>Welcome to AIO Technica</li>
               </ul>
             </div>
             <div class="top-bar-info">
