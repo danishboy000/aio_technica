@@ -70,7 +70,7 @@ export default function PartnerProgram() {
         <div class="feature-box-long">
         <img src = '/img/Retail-MVNO-Icon.png' />
           <h3>Retail Mobile Stores or MVNOs</h3>
-          <p><em><strong>Do you supply customers with retail phone and data plans but often have to turn away IoT/AIO Technica specific business due to a lack of plan flexibility or resources?</strong></em><br /> Partnering with AIO Technica allows you to still sell to and profit from IoT customers without needing to employ specialist staff or negotiate specific plans.</p>
+          <p><em><strong>Do you supply customers with retail phone and data plans but often have to turn away IoT/M2M specific business due to a lack of plan flexibility or resources?</strong></em><br /> Partnering with AIO Technica allows you to still sell to and profit from IoT customers without needing to employ specialist staff or negotiate specific plans.</p>
         </div>
       </div>
     </div>

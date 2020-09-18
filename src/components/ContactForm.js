@@ -1,6 +1,29 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
+import emailjs from 'emailjs-com';
 
 export default function ContactForm() {
+
+  
+  function sendEmail(e) {
+    e.preventDefault();
+    console.log(e.target);
+    emailjs.sendForm('contact_service', 'contact_template', e.target, "user_trmRTbD4XsP6tsJhM0rRt")
+      .then((result) => {
+          console.log(result);
+          if(result.text == 'OK')
+          {
+            document.getElementById('msg').innerHTML = 'Email sent successfully. Thanks for contacting us.';
+          }
+          else
+          {
+            document.getElementById('msg').innerHTML = 'Cound not send email.';
+          }
+      }, (error) => {
+          console.log(error.text);
+      });
+  }
+
+
     return (
         <div>
 
@@ -12,14 +35,14 @@ export default function ContactForm() {
         </div>
         <div class="contact-form-box mt-30">
          
-          <form class="contact-form">
+          <form class="contact-form" onSubmit = {sendEmail}>
             <div class="row">
               <div class="col-md-12">
-                <input type="text" name="title" placeholder="Title" />
+                <input type="text" name="title" placeholder="Title" required/>
               </div>
 
               <div class="col-md-6 col-sm-6 col-12">
-                <input type="text" name="first-name" placeholder="First Name" />
+                <input type="text" name="first-name" placeholder="First Name" required/>
               </div>
 
               <div class="col-md-6 col-sm-6 col-12">
@@ -32,7 +55,7 @@ export default function ContactForm() {
               </div>
 
               <div class="col-md-6 col-sm-6 col-12">
-                <input type="email" name="email" placeholder="E-mail" />
+                <input type="email" name="email" placeholder="E-mail" required/>
               </div>
 
               
@@ -60,9 +83,13 @@ export default function ContactForm() {
               </div>
               <div class="col-md-12 mb-30">
                 <div class="center-holder">
-                  <button type="submit">Send Message</button>
+                  <input type="submit" value = 'Send Message' style = {{backgroundColor:'black',cursor:'pointer'}}/>
                 </div>
               </div>
+              <div class="col-md-12">
+              <p id = 'msg'></p>
+              </div>
+              
             </div>
           </form>
           
@@ -74,3 +101,4 @@ export default function ContactForm() {
         </div>
     )
 }
+

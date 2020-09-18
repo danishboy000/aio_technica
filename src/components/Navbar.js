@@ -6,8 +6,9 @@ export default function Navbar() {
         <header>
             <nav id="navigation4" class="container navigation">
                 <div class="nav-header">
-                <a class="nav-brand" href="index.html">
-                    <img src="img/logos/logo.png" class="main-logo" alt="logo" id="main_logo" />
+                <a class="nav-brand" href="/">
+                    {/* <img src="img/logos/logo.png" class="main-logo" alt="logo" id="main_logo" /> */}
+                    <span>AIO Technica</span>
                 </a>
                 <div class="nav-toggle"></div>
                 </div>
@@ -27,7 +28,7 @@ export default function Navbar() {
                         
                     </ul>
                     </li>
-                    <li><a href="#">Pricing</a></li>
+                    {/* <li><a href="#">Pricing</a></li> */}
                     <li><a href="/get-connected">Get Connected</a></li>
                     <li><a href="/faq">FAQ</a></li>
                    

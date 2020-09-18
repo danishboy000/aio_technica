@@ -30,15 +30,11 @@ export default function Faq() {
         },
         {
             question:'How do I order new SIM Cards?',
-            answer:'You can order physical SIM cards by emailing orders@Aio Technicaone.com.au and providing the following information:<br /><br />1.Account Name<br />2.SIM Card Size<br />3.Number of SIMs<br />4.APN/Communication Plan Required<br />5.Rate Plan Required<br />6.Delivery Address'
+            answer:'You can order physical SIM cards by emailing support@aiotechnica.com and providing the following information:<br /><br />1.Account Name<br />2.SIM Card Size<br />3.Number of SIMs<br />4.APN/Communication Plan Required<br />5.Rate Plan Required<br />6.Delivery Address'
         },
         {
             question:'What payment and subscriptions terms do Aio Technica offer?',
             answer:'All services from Aio Technica are supplied on a month-to-month basis and billed in monthly in advance. NOTE:  Only excess usage, additional Pay-Per Use features (SMS, etc) and services are billed in a post-paid format. Aio Technica’s standard payment terms are 7 days from date of invoice, unless otherwise negotiated.'
-        },
-        {
-            question:'What payment options do Aio Technica accept?',
-            answer:'Aio Technica invoices can be paid over the phone by calling +61 3 9696 3011 (opt 2) or by using our online payment portal at https://myaccount.Aio Technicaone.com.au/.Aio Technica currently accept the following payment methods:<br />1.Credit Card – Credit Cards can be used for one time payments or billed monthly. A 1.5% surcharge applies to Visa & Mastercard and a 3% surcharge applies to American Express & Diners Club<br />1.Electronic Funds Transfer (EFT)<br />1.Direct Debit'
         },
         {
             question:'How long does shipping take?',
@@ -46,7 +42,7 @@ export default function Faq() {
         },
         {
             question:'Technical Support Contacts',
-            answer:'You can call Aio Technica technical support on +61 3 9696 3011 – between 8:30am and 5:00pm (Melbourne Time) Monday to Friday. You can also submit a trouble ticket through support@Aio Technicaone.com.au or by using our Support Portal.'
+            answer:'You can email Aio Technica technical support through support@aiotechnica.com or by using our Support Portal.'
         },
         {
             question:'Aio Technica network coverage and operating frequencies',
@@ -55,7 +51,7 @@ export default function Faq() {
         {
             question:'What APNs (Access Point Names) are available? ',
             answer:`Aio Technica can provision SIM cards with the following APNs:<p></p><ul><li>telstra.M2M – Assigns your device a private dynamic IP address with direct internet access using NAT.</li><li>telstra.internet – Assigns your device a private dynamic IP address with direct internet access using NAT.</li><li>telstra.extranet <em><strong>(On approval only)</strong></em> – Assigns your device a public dynamic IP (no NAT)</li>
-            <li>Aio Technica.com.au – Aio Technica’s own private static IP network.</li>
+            <li>aiotechnica.com – Aio Technica’s own private static IP network.</li>
             <li>Aio Technica.ipx – Aio Technica’s own private static IP network.</li>
             </ul>
             <p><strong>NOTE:&nbsp;</strong>Our default APN is Aio Technica</p>
@@ -149,7 +145,7 @@ export default function Faq() {
         {
             question:'What is the SIM card mobile number or MSISDN?',
             answer:`Each SIM card has a unique mobile number or MSISDN. Aio Technica dispatch a packing slip with each order that lists each SIM with the mobile number(s).<p></p>
-            <p>You can also get this information from the Aio Technica Control Centre or by contacting technical support on&nbsp;+61 3 9696 3011, through <a href="mailto:support@AioTechnica.com.au">support@AioTechnica.com.au</a> or using our <a href="https://www.AioTechnica.com.au/Aio Technica-support/">Support Portal. </a></p>`
+            <p>You can also get this information from the Aio Technica Control Centre or by contacting technical support, through <a href="mailto:support@aiotechnica.com">support@aiotechnica.com</a></p>`
         },
         {
             question:'Can I use Aio Technica SIM Cards in an iPhone?',

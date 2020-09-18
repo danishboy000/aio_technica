@@ -24,7 +24,7 @@ We stock a variety of form factors: Standard, Micro, Nano, Industrial and Machin
                             </div>
                         </div>
                         <div class="animated fadeInUp mt-30">
-                            <a href="#contact" class="dark-button button-md">Get Connected</a>
+                            <a href="/get-connected" class="dark-button button-md">Get Connected</a>
                         </div>
                         </div>
                     </div>

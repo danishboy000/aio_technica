@@ -21,7 +21,7 @@ export default function Slider() {
                         </div>
                     </div>
                     <div class="animated fadeInUp mt-30">
-                        <a href="#contact" class="dark-button button-md">Get Connected</a>
+                        <a href="/get-connected" class="dark-button button-md">Get Connected</a>
                     </div>
                     </div>
                 </div>

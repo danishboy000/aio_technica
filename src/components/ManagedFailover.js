@@ -1,7 +1,29 @@
 import React from 'react'
 import Solutions from './Solutions'
+import emailjs from 'emailjs-com';
 
 export default function ManagedFailover() {
+
+  function sendEmail(e) {
+    e.preventDefault();
+    console.log(e.target);
+    emailjs.sendForm('contact_service', 'contact_template', e.target, "user_trmRTbD4XsP6tsJhM0rRt")
+      .then((result) => {
+          console.log(result);
+          if(result.text == 'OK')
+          {
+            document.getElementById('msg').innerHTML = 'Email sent successfully. Thanks for contacting us.';
+          }
+          else
+          {
+            document.getElementById('msg').innerHTML = 'Cound not send email.';
+          }
+      }, (error) => {
+          console.log(error.text);
+      });
+  }
+
+
     return (
         <div>
             
@@ -68,26 +90,29 @@ No network can provide 100% uptime, which is why AIO Technica can offer a fully-
             <div className="row">
                 <div className="col-md-12 col-12 col-sm-12">
                 <p class = 'mt-25 mb-25'>Please fill in the form below for more information on the Failover Service, and one of our team will be in touch to discuss further.</p>
-                <form class="contact-form">
+                <form class="contact-form" onSubmit = {sendEmail}>
             <div class="row">
               <div class="col-md-12">
-                <input type="text" name="subject" placeholder="Subject" />
+                <input type="text" name="title" placeholder="Title" />
               </div>
 
               <div class="col-md-6 col-sm-6 col-12">
-                <input type="text" name="name" placeholder="Name" />
+                <input type="text" name="first-name" placeholder="Name" />
               </div>
               <div class="col-md-6 col-sm-6 col-12">
                 <input type="email" name="email" placeholder="E-mail" />
               </div>
 
               <div class="col-md-12">
-                <textarea name="message" placeholder="Message"></textarea>
+                <textarea name="description" placeholder="Message"></textarea>
               </div>
               <div class="col-md-12 mb-30">
                 <div class="center-holder">
-                  <button type="submit">Send Message</button>
+                <input type="submit" value = 'Send Message' style = {{backgroundColor:'black',cursor:'pointer'}}/>
                 </div>
+              </div>
+              <div class="col-md-12">
+              <p id = 'msg'></p>
               </div>
             </div>
           </form>

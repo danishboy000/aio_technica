@@ -17,6 +17,9 @@ import NBIOT from './components/NBIOT'
 import Global from './components/Global'
 import Developers from './components/Developers'
 import ManagedFailover from './components/ManagedFailover'
+import Terms from './components/Terms'
+import Agreement from './components/Agreement'
+import Policy from './components/Policy'
 
 function App() {
 
@@ -41,6 +44,10 @@ function App() {
         <Route path = '/global' component = {Global} />
         <Route path = '/developers' component = {Developers} />
         <Route path = '/managed-failover' component = {ManagedFailover} />
+        <Route path = '/terms-of-use' component = {Terms} />
+        <Route path = '/form-of-agreement' component = {Agreement} />
+        <Route path = '/privacy-policy' component = {Policy} />
+
         <Footer />
 
       </div>

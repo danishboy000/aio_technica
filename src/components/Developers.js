@@ -113,7 +113,7 @@ All our SIMs give you access to our industry leading M2M Control Centre. Allowin
 
     <div class="col-md-7 col-sm-7 col-12">
 
-    <div class="et_pb_text_inner"><p><strong>NOTICE: This form is only to be used to register a new account with AIO Technica, if you already have an account please email <a href="">info@aiotechnica.com</a>.</strong></p>
+    <div class="et_pb_text_inner"><p><strong>NOTICE: This form is only to be used to register a new account with AIO Technica, if you already have an account please email <a href="mailto:support@aiotechnica.com">support@aiotechnica.com</a>.</strong></p>
     <p>If you just&nbsp;need to ask a question, <a title="Contact Us" href="/contact-us">click Contact Us</a></p></div>
 
 
@@ -131,8 +131,8 @@ All our SIMs give you access to our industry leading M2M Control Centre. Allowin
         <ul>
 
 
-        <li>All pricing is in North American Dollars and Excludes GST.</li>
-        <li>Domestic North American shipping is $15.00 per order and dispatched in 24 hours via Star Trak Express.</li>
+        <li>All pricing is in American Dollars and Excludes GST.</li>
+        <li>Domestic American shipping is $15.00 per order and dispatched in 24 hours via Star Trak Express.</li>
         <li>International shipping can be done via customer’s preferred freight provider or quoted on order via DHL.</li>
         <li>SIM Cards are invoiced at the time of purchase – Data plans are invoiced at the time of activation.</li>
         <li>Unless otherwise agreed invoices are generated monthly in advance with 7 day payment terms.</li>
@@ -140,9 +140,7 @@ All our SIMs give you access to our industry leading M2M Control Centre. Allowin
         </ul>
 
         <h4 class = 'mb-25 mt-25'>Contact AIO Technica</h4>
-        <p><strong>Address:</strong>&nbsp;AIO Technica Pty Ltd, 1 Barrett Street, Kensington, VIC 3031, North America<br />
-        <strong>Phone:</strong>&nbsp;<a href="tel:+61396963011">+61 3 9696 3011</a><br />
-        <strong>Email:&nbsp;</strong><a href="">info@aiotechnica.com</a></p>
+        <strong>Email:&nbsp;</strong><a href="mailto:support@aiotechnica.com">support@aiotechnica.com</a>
 
     </div>
     </div>
